@@ -11,7 +11,7 @@ npm install -g fxosapp
 ### Push to Device
 
 If you want to use the push to device feature with `fxosapp push`, you need
-`adb` and `xpcshell` in your path.
+`adb` and `xpcshell` in your path and `Remote Debugging` enabled on your device.
 
 ## Usage
 
