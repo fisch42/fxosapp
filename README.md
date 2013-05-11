@@ -137,7 +137,7 @@ app.on 'manifest', ->
 
 MPL see [LICENSE file](https://github.com/fisch42/fxosapp/blob/master/LICENSE).
 
-The [`/bin/install.js` file]() was taken from
+The [`/bin/install.js` file](https://github.com/fisch42/fxosapp/blob/master/bin/install.js) was taken from
 [make-fxos-install](https://github.com/digitarald/make-fxos-install)
 and also published under MPL, as discussed
 [here](https://github.com/digitarald/make-fxos-install/issues/4#issuecomment-17766315).
