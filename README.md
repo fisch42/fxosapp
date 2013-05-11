@@ -1,7 +1,6 @@
-
 # fxosapp
 
-`fxosapp` is a Firefox OS build tool.
+`fxosapp` is a Firefox OS App build tool.
 
 ## Installation
 
