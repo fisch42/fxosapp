@@ -1,0 +1,26 @@
+{
+	"name": "fxosapp",
+	"version": "0.0.1-1",
+	"description": "Build tool for Firefox OS Apps",
+	"author": {
+		"name": "Fiona Schmidtke",
+		"email": "https://github.com/fisch42"
+	},
+	"main": "lib/fxosapp.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/fisch42/fxosapp.git"
+	},
+	"dependencies": {
+		"nopt": "2.1.x",
+		"parents": "0.0.x",
+		"easy-zip": "0.0.x",
+		"ls": "0.0.x",
+		"dotignore": "0.0.x",
+		"fs-tools": "0.2.x"
+	},
+	"bin": {
+		"fxosapp": "./bin/cli.js"
+	},
+	"licence": "MPL"
+}

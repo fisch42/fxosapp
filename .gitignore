@@ -1,0 +1,12 @@
+# project specific
+lib/
+node_modules/
+
+# general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
