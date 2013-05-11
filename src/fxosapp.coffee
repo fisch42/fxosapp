@@ -20,7 +20,6 @@ class App extends EventEmitter
 		@manifest = null
 	
 	findManifest: ->
-		
 		dirs = parents @dir
 		paths = dirs.map (x) ->
 			if x isnt '/'
