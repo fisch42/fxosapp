@@ -31,6 +31,24 @@ Known options:
     --path [path]       current working directory.
 ```
 
+### Ignoring Files
+
+Create a `.fxosignore` file in your project directory next to the `manifest.webapp`
+to ignore files, that you don't want in your app.
+
+For example
+
+```
+*.swp
+*.swo
+*~
+*.appcache
+*.log
+.git
+.gitignore
+dist
+```
+
 ## Usage Programmatically
 
 ### Initialization
