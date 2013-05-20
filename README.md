@@ -11,7 +11,11 @@ npm install -g fxosapp
 ### Push to Device
 
 If you want to use the push to device feature with `fxosapp push`, you need
-`adb` and `xpcshell` in your path and `Remote Debugging` enabled on your device.
+`adb` and `xpcshell` in your path and `Remote Debugging`
+[enabled on your device](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Debugging/Developer_settings#The_Developer_panel).
+
+On my Fedora 18 I installed for `adb` `android-tools` and for `xpcshell` `xulrunner-devel`.
+Then I created a symlink pointing from `.local/bin/xpcshell` to `/usr/lib64/xpcshell`.
 
 ## Usage
 
